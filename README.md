@@ -218,15 +218,6 @@ Check workflow logs for detailed information:
 - **Memory**: 4-8GB RAM for most genomes
 - **Storage**: ~2x input genome size for temporary files
 
-## Citation
-
-If you use Reference Masker in your research, please cite:
-
-```
-Reference Masker: A Snakemake workflow for masking viral-like regions in reference genomes
-[Your citation information here]
-```
-
 ## Contributing
 
 We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
