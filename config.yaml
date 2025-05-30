@@ -1,0 +1,33 @@
+# Reference Masker Configuration
+
+# Input files
+viral_database: "ncbi_viruses_20250530.fasta"
+reference_genomes:
+  - "ref_genomes/human_chr22.fa"
+  # Add more references here:
+  # - "ref_genomes/mouse_chr1.fa"
+  # - "ref_genomes/custom_ref.fa"
+
+# Output directories
+output_dir: "results"
+temp_dir: "temp"
+log_dir: "logs"
+
+# Shredding parameters
+shred:
+  overlap: 40
+  median_length: 80
+  variance: 5
+  min_length: 60
+
+# Mapping parameters
+mapping:
+  min_identity: 90    # Strict identity for confident viral matches
+  max_indel: 2        # Conservative indel allowance
+
+# Masking parameters
+masking:
+  entropy_threshold: 0.5
+
+# Computing resources
+threads: 4

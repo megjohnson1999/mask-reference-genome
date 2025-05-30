@@ -1,0 +1,79 @@
+# Output directories
+results/
+temp/
+logs/
+.snakemake/
+
+# Log files
+*.log
+validation.log
+workflow.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Conda environments (auto-generated)
+.snakemake/conda/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large data files (add specific patterns as needed)
+*.fasta.gz
+*.fa.gz
+*.fastq.gz
+*.fq.gz
+
+# Reference genomes (usually too large for git)
+ref_genomes/
+genomes/
+
+# BBMap generated files (auto-created, can be large)
+ref/
+*.block
+*.block2.gz
+
+# NCBI downloads
+ncbi_*.fasta
+*.fna
+*.gbff
+
+# Test outputs
+test_*.yaml
+test_*.fasta
